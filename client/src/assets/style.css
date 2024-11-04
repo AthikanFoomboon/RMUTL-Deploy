@@ -1,0 +1,53 @@
+.custom-navbar {
+  background-color: #6a0dad;
+  margin-bottom: 5vh;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ddd !important;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.dropdown-btn:hover {
+  color: #ddd;
+}
+
+.ant-dropdown-menu {
+  background-color: #6a0dad;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ant-dropdown-menu-item,
+.ant-dropdown-menu-item a {
+  color: #fff;
+}
+
+.ant-dropdown-menu-item:hover {
+  background-color: #5c0096;
+  color: #fff;
+}
+
+.ant-dropdown-menu-item-divider {
+  background-color: #fff;
+  height: 1px;
+}

@@ -1,0 +1,32 @@
+/* Home.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .home-container {
+    text-align: center;
+    margin: 1%;
+    background: url('https://path_to_your_background_image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5); /* ทำให้พื้นหลังมืดขึ้น */
+    border-radius: 15px;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 40%;
+    min-width: 300px;
+  }
+  
+  .welcome-text {
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
